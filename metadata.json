@@ -1,0 +1,5 @@
+{
+  "name": "OptionFlow - Time Decay Visualizer",
+  "description": "A sophisticated interactive dashboard to visualize option pricing models (Black-Scholes), analyzing price changes over time and underlying asset movement with AI-powered insights.",
+  "requestFramePermissions": []
+}
