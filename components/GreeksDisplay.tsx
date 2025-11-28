@@ -121,7 +121,7 @@ const GreeksDisplay: React.FC<GreeksDisplayProps> = ({ params, result }) => {
         </div>
         
         <div className="overflow-x-auto">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <div className="space-y-8">
                 {/* Call Table */}
                 <div>
                     <h4 className="text-emerald-400 text-sm font-bold uppercase mb-3 flex justify-between border-b border-emerald-900/30 pb-2">
@@ -154,7 +154,7 @@ const GreeksDisplay: React.FC<GreeksDisplayProps> = ({ params, result }) => {
                     </table>
                 </div>
 
-                {/* Put Table */}
+                {/* Put Table - 现在单独成一列 */}
                 <div>
                      <h4 className="text-red-400 text-sm font-bold uppercase mb-3 flex justify-between border-b border-red-900/30 pb-2">
                         {t.putDecay}
