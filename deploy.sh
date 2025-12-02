@@ -79,7 +79,7 @@ build_project() {
 
 # 检查PM2配置文件
 check_pm2_config() {
-    if [ ! -f "pm2.config.js" ] && [ ! -f "pm2.json" ] && [ ! -f "ecosystem.config.js" ]; then
+    if [ ! -f "pm2.config.js" ] && [ ! -f "pm2.json" ] && [ ! -f "ecosystem.config.cjs" ]; then
         warning "未找到PM2配置文件，将使用默认配置"
         return 1
     fi
