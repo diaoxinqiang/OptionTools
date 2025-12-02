@@ -3,7 +3,7 @@ module.exports = {
     name: 'optionflow',
     script: 'npm',
     args: 'run preview -- --port 3000 --host 0.0.0.0',
-    cwd: __dirname,
+     cwd: new URL('.', import.meta.url).pathname, // 动态目录
     instances: 1,
     exec_mode: 'fork',
     watch: false,
